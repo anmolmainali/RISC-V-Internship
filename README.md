@@ -72,3 +72,17 @@ Then we get the number of instructions in the DEC section.
 
 
 
+* We run the same command but instead of `O1`  we use
+  ` Ofast `
+  ` riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o {filename}.o {filename}.c`
+
+  * We run the same command and search for main again
+  * Then we again calculate the number of instrucitons.
+
+     ![Screenshot 2024-12-22 105910](https://github.com/user-attachments/assets/4ae51abc-e1cf-4078-a4e0-5fb49a352d6b)
+![Screenshot 2024-12-22 105944](https://github.com/user-attachments/assets/3739587c-28c7-4186-b4f6-2fb2241c6e04)
+
+
+
+
+    
