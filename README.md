@@ -87,4 +87,64 @@ Then we get the number of instructions in the DEC section.
 
 # SSSIHL Task 2
 
+
+### Code
+
+```
+#include <stdio.h>
+
+int main(){
+
+int i,sum=0,n=5;
+
+for(i=0;i<=n;i++){
+
+sum+=i;
+
+}
+
+printf("sum of numbers from 1 to %d is: %d\n",n,sum);
+
+}
+```
+
+
+![Screenshot 2024-12-29 151557](https://github.com/user-attachments/assets/a4dbeacb-08d9-4b90-ab1d-80233e26db98)
+
+
+
+![Screenshot 2024-12-29 151635](https://github.com/user-attachments/assets/e4795643-7a89-4d4c-af53-e7e7001d39e3)
+![Screenshot 2024-12-29 151644](https://github.com/user-attachments/assets/354a1cd9-ed2f-4871-9f50-8b162b2b8051)
+![Screenshot 2024-12-29 151651](https://github.com/user-attachments/assets/8f6c450f-b0ce-4680-9345-5eb323173c9d)
+
+![Screenshot 2024-12-29 151659](https://github.com/user-attachments/assets/786e6ff0-88b5-44e0-a286-122549d51d05)
+
+![Screenshot 2024-12-29 151706](https://github.com/user-attachments/assets/7c756a4f-e74a-422a-b423-6711453abfc6)
+
+
+![Screenshot 2024-12-29 151715](https://github.com/user-attachments/assets/8f616a7f-1ea8-4160-9d68-787d9066e4ee)
+
+
+![Screenshot 2024-12-29 151723](https://github.com/user-attachments/assets/62720085-9097-4228-a7fc-eb6489d06e0b)
+
+![Screenshot 2024-12-29 151728](https://github.com/user-attachments/assets/f322b524-e9a1-4dfa-bbd3-bed1139204a1)
+
+
+![Screenshot 2024-12-29 151751](https://github.com/user-attachments/assets/d572d29b-e0db-46ea-9c60-0fa6b926c5ab)
+
+
+
+![Screenshot 2024-12-29 151758](https://github.com/user-attachments/assets/745027a4-a80f-4852-a555-39996cecba6f)
+
+
+![Screenshot 2024-12-29 151804](https://github.com/user-attachments/assets/4a53604c-797c-43b1-b985-1566a48d4243)
+
+
+
+
+
+
+
+
+
     
