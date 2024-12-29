@@ -1,4 +1,4 @@
-# SSSIHl_task1
+# SSSIHl Task 1
  ### Week 1 
 
  We write a C program that adds numbers from 1 to 'n'.
@@ -84,5 +84,7 @@ Then we get the number of instructions in the DEC section.
 
 
 
+
+# SSSIHL Task 2
 
     
