@@ -1,4 +1,4 @@
-# SSSIHl Task 1
+# SSSIHL Task 1
  ### Week 1 
 
  We write a C program that adds numbers from 1 to 'n'.
