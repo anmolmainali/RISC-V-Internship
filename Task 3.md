@@ -1,16 +1,26 @@
 # RISC-V INSTRUCTION TYPES
-## The RISC-V has various types of instruction formats which we can be grouped in two types : 
-#### BASE INSTRUCTION FORMATS :
-In the base RV32I ISA , there are four main instruction formats mainly the R-Type , I - type , S - type and U - type .
-All are 32 bits long.The base ISA has IALIGN=32, meaning that instructions must be aligned on a four-byte boundary in memory.
-If there is an misalignment an exception is taken such it branches or there will occur an unconditional jump , techincally *instruction-address-misaligned exception*.
+## RISC-V features a variety of instruction formats, which can be broadly classified into two categories:
+
+Base Instruction Formats:
+The base RV32I ISA defines four primary instruction formats: R-Type, I-Type, S-Type, and U-Type. Each of these instructions is 32 bits in length. The base ISA specifies IALIGN = 32, requiring instructions to be aligned to a four-byte boundary in memory. If an instruction is misaligned, an exception is triggered. This can result in a branch or an unconditional jump, formally referred to as an instruction-address-misaligned exception.
 
 
 ![image](https://github.com/user-attachments/assets/ba58b088-d2c8-4fe9-bf97-87fd1d983aef)
 
-**As in the image there are source resistors termed as **rs** *(These are the registers that hold the input values for a particular operation or instruction)*.  and destination resisters **rd** *(This register holds the result of the operation performed by the instruction.)* . The **funct3** is a 3-bit field *(field refers to a specific segment or portion of an instruction that contains particular information necessary for the processor to execute that instruction)*  and **funct7** a 7-bit field  and opcode *(an instruction that specifies the operation to be done by the processor)* and imm[x:y] means that the immediate value *(a constant data value embedded directly within an instruction)* is derived from the bits in the instruction ranging from position y to position x.
-The RISC-V ISA keeps the source (rs1 and rs2) and destination (rd) registers at the same position in all
-formats to simplify decoding.**
+### In the RISC-V architecture, there are source registers (rs) and destination registers (rd):
+
+* Source registers (rs): These registers hold the input values required for a specific operation or instruction.
+* Destination register (rd): This register stores the result of the operation performed by the instruction.
+
+###Other key components include:
+
+* funct3: A 3-bit field that refers to a specific portion of an instruction containing essential information for the processor to execute it.
+* funct7: A 7-bit field used similarly to funct3, often providing additional operation-specific details.
+* opcode: An instruction field that specifies the operation to be performed by the processor.
+* imm[x:y]: Represents an immediate value (a constant embedded directly within an instruction), derived from the bits in the instruction ranging from position y to position x.
+* 
+### The RISC-V ISA simplifies instruction decoding by maintaining the positions of source registers (rs1 and rs2) and the destination register (rd) consistent across all instruction formats.
+
 
 ####  Immediate Encoding Variants 
 There are a further two variants of the instruction formats   based on the handling of immediates namely B-Type and J-Type
