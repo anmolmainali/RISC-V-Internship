@@ -138,7 +138,7 @@ Now we take the obj-dump of this code which is :
 
 ![Screenshot 2024-12-27 141314](https://github.com/user-attachments/assets/0cb613ca-5116-44bd-ae6a-181309f1ebc1)
 
-We will start to nalayze unique instructions ,
+We will start to analyze unique instructions ,
 
 ### 1)The first instruction
 
@@ -155,6 +155,15 @@ and -16 indicates the immidiate value to add to the current value
 
 Thus we can conclude this is an I-Type instruction
 
+# Instruction Analysis in RISC-V Assembly
+1) Instruction: 10184: ff010113 addi sp, sp, -16
+* Address: 10184
+* Operation: addi (Add Immediate)
+Adds an immediate value (-16) to the value in the stack pointer (sp) register.
+* Instruction Type: I-Type
+* Immediate value -16, destination register sp, and source register sp.
+* Hexadecimal: ff010113
+* Binary: 1111 1111 0000 0001 0000 0001 0001 0011
 
 These are  assembly language neumonics where the hexamdecimal instruction is given by **ff010113** which when conveted to binary is as follows :
 
