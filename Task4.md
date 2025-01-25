@@ -1,21 +1,10 @@
-# RISC-V Core Verilog netlist and testbench
+# TERMINOLOGY: Verilog Netlist
+## The Verilog netlist represents the hardware description at the gate level, outlining how various gates and flipflops are coupled to construct the processor.
 
-### TERMINOLOGY :
+### A testbench in Verilog simulates and verifies design functionality.On other words, we attempt to replicate the hardware without the use of real flipflops or logic gates.
 
-#### Verilog netlist 
-
-Verilog netlist represents the hardware description at a gate level,detailing how diffrent gates and flipflops are interconnected to form the processor.
-
-#### Testbench
-
-A testbench in verilog is used to simulate and verify the functionality of a design .i.e we try to simulate the hardware without using actual flipflops or logic gates.
-
-### First we wil download some things needed for this :
-
-#### Initially, we will utilize the command 
-        sudo apt-get update
-
-to update the latest packages from configured repositories . It basically prepares the system for package mangement tasks like installing or updating software.
+First, we'll download certain stuff needed for this:
+To update packages from configured repositories, use the command "sudo apt-get update." In essence, it gets the system ready for package management operations like software updates and installations.
 
 
 ![Screenshot 2025-01-05 202602](https://github.com/user-attachments/assets/7ef4c08e-1329-4e01-b392-245b56bc255f)
