@@ -12,8 +12,7 @@ A testbench in verilog is used to simulate and verify the functionality of a des
 
 ### First we wil download some things needed for this :
 
-#### At first we will use the command 
-
+#### Initially, we will utilize the command 
         sudo apt-get update
 
 to update the latest packages from configured repositories . It basically prepares the system for package mangement tasks like installing or updating software.
