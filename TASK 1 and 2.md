@@ -22,7 +22,7 @@ int main() {
 }
 ```
 
-* After saving the file we write down the command
+* After saving the file we wrote down the command
 ` gcc {filename.c} `
 ` ./a.out`
 ![Screenshot 2024-12-22 102848](https://github.com/user-attachments/assets/7a4cddf5-8042-4636-b80a-aee54b8d8722)
